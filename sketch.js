@@ -21,7 +21,16 @@ gameO=loadImage("/assets/gameO.png");
 dipper=loadImage("/assets/dipper.png");
 diario_gran=loadImage("/assets/diario_gran.png");
 alfombra=loadImage("/assets/alfombra.png");
-
+abuela=loadImage("/assets/Abuela Fantasma.png");
+corazon=loadImage("/assets/CorazónVida.png");
+abuelo=loadImage("/assets/ABUELO FANTASMA.png");
+cuarto=loadImage("/assets/CUARTO.png");
+escogerP=loadImage("/assets/EscogerPersonaje.png");
+hombreTauro=loadImage("/assets/HombreTauro.png");
+bosque=loadImage("/assets/Mapa Bosque.png");
+paginas=loadImage("/assets/Paginas.png");
+inicial=loadImage("/assets/INICIAL.png");
+tronco=loadImage("/assets/Tronco.png");
 
 }
 function setup() {
