@@ -26,29 +26,31 @@ alfombra=loadImage("/assets/alfombra.png");
 abuela=loadImage("/assets/Abuela Fantasma.png");
 corazon=loadImage("/assets/CorazónVida.png");
 abuelo=loadImage("/assets/ABUELO FANTASMA.png");
-cuarto=loadImage("/assets/CUARTO.png");
-escogerP=loadImage("/assets/EscogerPersonaje.png");
+cuarto=loadImage("/assets/Cuarto Dipper_1-8.png");
+escogerP=loadImage("/assets/EscogerPersonaje-8.png");
 hombreTauro=loadImage("/assets/HombreTauro.png");
-bosque=loadImage("/assets/Mapa Bosque.png");
-paginas=loadImage("/assets/Paginas.png");
-inicial=loadImage("/assets/INICIAL.png");
+bosque=loadImage("/assets/Mapa Bosque-8.png");
+paginas=loadImage("/assets/PaginasDelLibro-8.png");
+inicial=loadImage("/assets/Pantalla inicial-8.png");
 tronco=loadImage("/assets/Tronco.png");
+
+
 
 }
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(1000, 500);
 }
 
 
 function draw() {
   background(220);
-  ellipse(100,100,50,50);
 
-  fill(255,0,0);
-  ellipse(150,150,50,50);
+  image(inicial,0,0);
+  image(tronco,0,0);
+  image(bosque,0,0);
+  image(paginas,0,0);
+  
 
-  fill(0,255,0);
-  ellipse(150,150,150,150);
 
 
 }
