@@ -23,6 +23,7 @@ alfombra=loadImage("/assets/alfombra.png");
 
 
 
+
 }
 function setup() {
   createCanvas(400, 400);
