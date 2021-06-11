@@ -1,3 +1,4 @@
+
 let bill, cinta, fuegoazul, fuegorosa, gnomo, portal, rosa, tienda, tiostan, winner, raton, pag_grande, muercie, mabel, hacha, gameO, dipper, diario_gran, alfombra;
 
 function preload(){
@@ -22,8 +23,11 @@ diario_gran=loadImage("/assets/diario_gran.png");
 alfombra=loadImage("/assets/alfombra.png");
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 5adaede34ac0ed507aabe6e3b4249501dee58016
 }
 function setup() {
   createCanvas(400, 400);
