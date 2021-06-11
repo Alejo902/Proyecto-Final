@@ -46,9 +46,9 @@ function draw() {
   background(220);
 
   image(inicial,0,0);
-  image(tronco,0,0);
   image(bosque,0,0);
   image(paginas,0,0);
+  image(bill,20,20);
   
 
 
