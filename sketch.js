@@ -1,5 +1,5 @@
 let winner, raton, pag_grande, muercie, mabel, hacha, gameO, dipper, diario_gran, alfombra;
-
+let hi;
 
 function preload(){
   winner=loadImage("/assets/winner.png");
