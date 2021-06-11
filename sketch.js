@@ -10,7 +10,7 @@ function draw() {
   ellipse(150,150,50,50);
 
   fill(0);
-  ellipse(200,200,50,50);
+  ellipse(200,200,500,50);
 }
 
 
