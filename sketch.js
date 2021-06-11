@@ -1,5 +1,7 @@
 
-let bill, cinta, fuegoazul, fuegorosa, gnomo, portal, rosa, tienda, tiostan, winner, raton, pag_grande, muercie, mabel, hacha, gameO, dipper, diario_gran, alfombra;
+let bill, cinta, fuegoazul, fuegorosa, gnomo, portal, rosa, tienda, tiostan, 
+winner, raton, pag_grande, muercie, mabel, hacha, gameO, dipper, diario_gran, alfombra,abuela,corazon,
+abuelo,cuarto,escogerP,hombreTauro,bosque,paginas,inicial,tronco;
 
 function preload(){
 bill=loadImage("/assets/0bill0.png");
