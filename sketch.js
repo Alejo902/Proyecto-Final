@@ -12,9 +12,6 @@ function draw() {
   fill(0,255,0);
   ellipse(200,200,50,50);
 
-  fill(255,0,0);
-  ellipse(300,300,50,60);
-
 }
 
 
