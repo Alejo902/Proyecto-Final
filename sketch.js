@@ -1,40 +1,4 @@
 
-let bill, cinta, fuegoazul, fuegorosa, gnomo, portal, rosa, tienda, tiostan, 
-winner, raton, pag_grande, muercie, mabel, hacha, gameO, dipper, diario_gran, alfombra,abuela,corazon,
-abuelo,cuarto,escogerP,hombreTauro,bosque,paginas,inicial,tronco;
-
-function preload(){
-bill=loadImage("/assets/0bill0.png");
-cinta=loadImage("/assets/0cinta0.png");
-fuegoazul=loadImage("/assets/0fuegoazul0.png");
-fuegorosa=loadImage("/assets/0fuegorosa0.png");
-gnomo=loadImage("/assets/0gnomo0.png");
-portal=loadImage("/assets/0portal0.png");
-rosa=loadImage("/assets/0rosa0.png");
-tienda=loadImage("/assets/0tienda0.png");
-tiostan=loadImage("/assets/0tiostan0.png");
-winner=loadImage("/assets/winner.png");
-raton=loadImage("/assets/raton.png");
-pag_grande=loadImage("/assets/pag_grande.png");
-muercie=loadImage("/assets/muercie.png");
-mabel=loadImage("/assets/mabel.png");
-hacha=loadImage("/assets/hacha.png");
-gameO=loadImage("/assets/gameO.png");
-dipper=loadImage("/assets/dipper.png");
-diario_gran=loadImage("/assets/diario_gran.png");
-alfombra=loadImage("/assets/alfombra.png");
-abuela=loadImage("/assets/Abuela Fantasma.png");
-corazon=loadImage("/assets/CorazónVida.png");
-abuelo=loadImage("/assets/ABUELO FANTASMA.png");
-cuarto=loadImage("/assets/CUARTO.png");
-escogerP=loadImage("/assets/EscogerPersonaje.png");
-hombreTauro=loadImage("/assets/HombreTauro.png");
-bosque=loadImage("/assets/Mapa Bosque.png");
-paginas=loadImage("/assets/Paginas.png");
-inicial=loadImage("/assets/INICIAL.png");
-tronco=loadImage("/assets/Tronco.png");
-
-}
 function setup() {
   createCanvas(400, 400);
 }
@@ -49,6 +13,8 @@ function draw() {
 
   fill(0,255,0);
   ellipse(150,150,150,150);
+
+  Image(inicial,0,0);
 
 
 }
